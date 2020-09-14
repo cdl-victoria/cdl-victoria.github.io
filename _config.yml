@@ -20,10 +20,10 @@
 #repository is required/helps github-pages gem it's a good idea to include
 # need to call api to find it from list of repos
 
-repository: 131331861
-repository_url: https://github.com/danyn/acdl
-url: https://danyn.github.io
-baseurl: /acdl
+repository: 295550037
+repository_url: https://github.com/cdl-victoria/cdl-victoria.github.io
+url: https://github.com/cdl-victoria/
+baseurl: /cdl-victoria.github.io
 permalink: /:categories/:title/
 country: CA
 lang: en
