@@ -1,0 +1,124 @@
+// home page css declare as css in front matter to incude:
+// _includes/css/home/home.css
+@import "vars"; 
+.home-above-fold{
+	#homeHeroImage{
+		max-height: 500px;
+		overflow: hidden;
+	}
+	.value-statement{
+		font-size:1.3em;
+
+		h1{
+			font-size:1.4em;
+			font-weight: 200;
+			color:inherit;
+		}
+
+		p{
+			font-size:  1em;
+			font-weight: 100;
+		}
+
+		// #region media queries for .value-statement
+		@media (max-width: 760px){   
+			background-color: $light_blue;
+			color: white;
+			padding:$space-3;
+		}    
+
+		@media(min-width: 761px){
+			position:absolute;
+			top:20px;
+			max-width: 518px;
+			width: 40%;
+			left: 57%;
+		}
+
+		@media (min-width: 1025px){
+			top: 127px;
+		}  
+		
+		@media (min-width: 1300px){
+			font-size: 1.7em;
+		}   
+	// #endregion 
+
+	}// .value-statement
+
+}// .home-above-fold
+
+.home-page{
+	#services{
+		@media(min-width:1200px){
+			max-width:1200px;
+			position:relative;
+			top:-20px;
+		}
+		
+		margin:0 auto;
+		@media(min-width:761px){
+			display:flex;
+			flex-wrap: wrap;
+		}
+		div{
+			color:white;
+			@media(min-width:1071px){
+				width:33%;
+			}
+		}
+		h2{
+			color:inherit;
+			font-weight:200;
+			font-size:1.1em;
+		}
+		a.services-links{
+			color:inherit;
+			display:block;
+			border:3px solid;
+			border-radius:3px;
+			padding: 1em;
+			@media(min-width:1071px){
+				&:before{
+					content:'';
+					float:left;
+					padding-top:80%;
+				}
+			}
+		}
+		ul{
+			list-style-type: none;
+			padding-left:1em;
+			margin-bottom:2em;
+			li{
+				position:relative;
+				margin:0;
+				padding-bottom: .8em;
+				&:before{
+					position:absolute;
+					left:-1em;
+					content: '✓';
+				}
+			}//li
+		}//ul
+		#crowns{
+			background-color: $dark_blue;
+			@media(min-width:761px)and(max-width:1070px){
+				width:50%;
+			}
+		}
+		#ceramic{
+			background-color: $logo_blue;
+			@media(min-width:761px)and(max-width:1070px){
+				width:50%;
+			}
+		}
+		#implants{
+			background-color: $light_blue;
+			@media(min-width:761px)and(max-width:1070px){
+				width:100%;
+
+			}
+		}
+	}//#services
+}//.home-page

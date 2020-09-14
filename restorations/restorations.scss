@@ -1,0 +1,60 @@
+@import 'vars';
+
+.sm-col{
+    // border:1px solid red;
+}
+
+.restorations{
+    .border-top{
+        border-top: 1px solid grey;
+     
+    }
+
+    .section{
+        padding-top:$space-2;
+        padding-bottom:$space-2;
+    }
+
+    
+    .restoration-photo{
+        max-width:525px;
+        margin: 0 auto;
+       
+    }
+
+    p, ul{
+        line-height:1.9;
+    }
+
+
+    .corporate-logo{
+        max-width:380px;
+        margin:0 auto;
+
+    }
+
+    .ips{
+        margin-top: 8%;
+        max-width: 253px;
+    }
+    .fade{
+        opacity: .3;
+        transform:scale(.2);
+    }
+
+}
+
+
+@keyframes fadeIn {
+    0%   {opacity:.3;transform:scale(.5);}
+ 
+    50%  {opacity:1;transform:scale(1.1);}
+  
+    100% {opacity:1;transform:scale(1);}
+}
+
+
+
+
+
+
