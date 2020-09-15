@@ -22,8 +22,8 @@
 
 repository: 295550037
 repository_url: https://github.com/cdl-victoria/cdl-victoria.github.io
-url: https://github.com/cdl-victoria/
-baseurl: /cdl-victoria.github.io
+url: https://
+baseurl: cdl-victoria.github.io
 permalink: /:categories/:title/
 country: CA
 lang: en
