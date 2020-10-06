@@ -43,6 +43,7 @@ twitter: false
 twitter_username: ""
 github_username: ""
 domain: cdlab.ca
+favicon: /assets/favicon.png
 
 # Explicitly say which pages to include in the nav
 # header_pages:
