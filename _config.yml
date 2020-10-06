@@ -38,10 +38,11 @@ social_image: assets/share_site.jpg
 email: contact.creativedental@gmail.com
 tel_pretty: (250) 595-1314
 tel: 2505951314
-author: Daniel Eisen
-twitter: true
-twitter_username: twitterMan
-github_username: daniel-eisen
+author: Creative Dental Laboratory Inc.
+twitter: false
+twitter_username: ""
+github_username: ""
+domain: cdlab.ca
 
 # Explicitly say which pages to include in the nav
 # header_pages:
@@ -72,13 +73,13 @@ amp-accordion: yes
 
 # Information for facebook pixil and marketing functions
 facebook:
-  admins: 3333
-  app_id: 1111
-  publisher: 2222
+  admins: false
+  app_id: false
+  publisher: false
   locale: en_CA 
 # Information for website verification codes often written into the the document head
-webmaster_verifications:
-  google: 938475394875
+webmaster_verifications: 
+  google: ""
   bing: ""
   alexa: ""
   yandex: ""
